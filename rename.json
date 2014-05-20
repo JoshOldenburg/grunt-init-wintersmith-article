@@ -1,0 +1,3 @@
+{
+	"article.md": "contents/articles/{%= slug %}/index.md"
+}
