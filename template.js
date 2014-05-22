@@ -5,7 +5,6 @@ exports.template = function(grunt, init, done) {
 		{
 			name: 'title',
 			message: 'What is the article title?',
-			default: (new Date()).getFullYear(),
 		},
 		{
 			name: 'slug',
