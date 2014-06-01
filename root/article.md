@@ -1,6 +1,6 @@
 ---
 title: {%= title %}
 author: {%= author_name %}
-date: {%= (new Date()).toISOString().replace('T', ' ').split('.')[0] %}
+date: {%= date %}
 template: article.jade
 ---

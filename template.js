@@ -16,6 +16,7 @@ exports.template = function(grunt, init, done) {
 		},
 	], function(err, props) {
 		var files = init.filesToCopy(props);
+		props.date = require('moment')().format('YYYY-MM-DD HH:mm');
 		init.copyAndProcess(files, props);
 
 		done();
